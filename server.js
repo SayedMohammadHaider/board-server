@@ -1,6 +1,6 @@
 const io = require('socket.io')(3000, {
     cors: {
-        origin: ['http://localhost:8080']
+        origin: ['https://board-test.onrender.com']
     }
 })
 io.on('connection', socket => {
